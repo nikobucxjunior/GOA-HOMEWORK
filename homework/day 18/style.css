@@ -1,0 +1,27 @@
+@import url('https://tools.picsart.com/text/font-generator/');
+body{
+    background-image: url(./skyline.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family: "medievalSharp";
+    font-weight: bold;
+    font-size: medium;
+    color:blanchedalmond;
+}
+h2{
+    text-align: center;
+    font-family: "medievalSharp";
+    font-weight: bold;
+    font-style: italic;
+    color: blanchedalmond;
+    text-decoration-color: aliceblue;
+}
+img{
+    width: 600px;
+    outline-style: solid;
+    outline-color: thistle;
+}

@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.navbar {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+.container:hover .navbar {
+width: 100vh;
+}
+
+.navbar a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-bottom: 1px solid #555;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgb(35, 58, 77);
+    color: white;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: width 0.3s, transform 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container:hover {
+    width: calc(100vh - 20px);
+    transform: translate(-50%, -50%) rotate(10deg);
+}
+
+.content {
+    display: none;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container:hover .content {
+    display: block;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+    }
