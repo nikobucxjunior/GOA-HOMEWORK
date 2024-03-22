@@ -1,0 +1,21 @@
+body{
+    background-color: #080936;
+    color: rgb(131, 139, 245);
+}
+.main{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+#Title{
+    text-align: center;
+    color: rgb(139, 114, 252);
+}
+#Founder{
+    text-align: center;
+    font-size: 15px;
+}
+.description{
+    text-align: center;
+    color: rgb(178, 113, 252);
+}
