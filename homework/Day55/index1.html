@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Operations</title>
+</head>
+<body>
+    <h1>Math Operations</h1>
+    <form id="mathForm">
+        <label for="firstNumber">Enter the first number:</label>
+        <input type="number" id="firstNumber" name="firstNumber" required><br><br>
+
+        <label for="secondNumber">Enter the second number:</label>
+        <input type="number" id="secondNumber" name="secondNumber" required><br><br>
+
+        <button type="button" onclick="performMathOperations()">Calculate</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script>
+        function performMathOperations() {
+            var firstNumber = parseFloat(document.getElementById("firstNumber").value);
+            var secondNumber = parseFloat(document.getElementById("secondNumber").value);
+            
+            var addition = firstNumber + secondNumber;
+            var subtraction = firstNumber - secondNumber;
+            var multiplication = firstNumber * secondNumber;
+            var division = firstNumber / secondNumber;
+
+            var resultsDiv = document.getElementById("results");
+            resultsDiv.innerHTML = "<p>Addition: " + addition + "</p>" +
+                                    "<p>Subtraction: " + subtraction + "</p>" +
+                                    "<p>Multiplication: " + multiplication + "</p>" +
+                                    "<p>Division: " + division + "</p>";
+        }
+    </script>
+</body>
+</html>

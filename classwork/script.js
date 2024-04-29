@@ -1,23 +1,18 @@
-<p id="p1">Hi</p>
-<p id="p2">Bye</p>
-<p id="p3">What Now?</p> 
-let p1 = document.getElementById("p1");
-let p2 = document.getElementById("p2");
-let p3 = document.getElementById("p3");
+document.getElementById("p1").textContent = "guja"
+document.getElementById("p5").textContent = "jemali"
 
-console.log(p1);
-console.log(p2);
-console.log(p3);
+console.log(p1)
+console.log(p5)
 
-// Second
+
 const myInfo = {
     name: "Giorgi",
-    age: 13,
-    birthday: "2011 March 10"
+    lastName: "Mamulaidze",
+    age: 16
 }
 
-const friendInfo = {
-    name: "Luka",
-    age: 13,
-    birthday: "2011 March 19"
+const myFriend = {
+    name: "Dachi",
+    lastName: "Zurabashvili",
+    age: 18
 }
