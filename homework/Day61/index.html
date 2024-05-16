@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teenager Checker</title>
+</head>
+<body>
+    <h1>Teenager Checker</h1>
+    <form id="teenagerForm">
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age" required>
+        <br><br>
+        <label for="hasPermission">Has Permission: </label>
+        <select id="hasPermission" name="hasPermission" required>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </select>
+        <br><br>
+        <button type="button" onclick="checkTeenager()">Check</button>
+    </form>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
