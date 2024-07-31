@@ -6,13 +6,13 @@ console.log(p5)
 
 
 const myInfo = {
-    name: "Giorgi",
-    lastName: "Mamulaidze",
-    age: 16
+    name: "nugo",
+    lastName: "Mamardashvili",
+    age: 1111
 }
 
 const myFriend = {
-    name: "Dachi",
-    lastName: "Zurabashvili",
-    age: 18
+    name: "mamuka",
+    lastName: "xinkali",
+    age: 999
 }
