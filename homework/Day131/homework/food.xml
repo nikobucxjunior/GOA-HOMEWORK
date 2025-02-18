@@ -1,0 +1,18 @@
+export default function
+FoodApp
+() {
+return (
+<div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+<h1>navbar</h1>
+<Link to="/">Home</Link>
+<Link to="/login">login</Link>
+<Link to="/pages">pages</Link>
+</div>
+<Routes>
+<Route path="/" element={{Home /}} />
+<Route path="/login" element={{Login /}} />
+<Route path="/pages" element={{Pages /}} />
+<Route path="page1" element={{PageOne /}} />
+</Routes>
+);
+}
